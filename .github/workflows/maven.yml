@@ -36,7 +36,7 @@ jobs:
     - name: Test with Maven
       run: mvn -B test --file pom.xml
 
-    # package: package compiled source code into the distributable format (jar, war, …)
+    # package: package compiled source code into the distributable format (jar, war, etc.)
     - name: Package with Maven
       run: mvn -B package --file pom.xml
 
